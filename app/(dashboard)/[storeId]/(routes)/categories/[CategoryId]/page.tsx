@@ -1,7 +1,12 @@
 import prismadb from "@/lib/prismadb";
 import { CategoryForm } from "./components/category-form";
 
-const CategoryPage = ({ category, billboards }) => {
+interface CategoryPageProps {
+  category: any
+  billboards: any
+}
+
+const CategoryPage: React.FC<CategoryPageProps> = ({ category, billboards }) => {
   return (
     <div className="flex-col">
       <div className="flex-1 space-y-4 p-8 pt-6">
