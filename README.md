@@ -49,9 +49,23 @@ Next.js with Typescript
 
 ### Backend
 
+- **Node.js with Next.js API Routes**: Server-side logic for handling requests and managing the backend.
+
 - **Prisma Client**: Auto-generated database client for Node.js and TypeScript, seamlessly integrated with Prisma.
 
 - **PlanetScale**: Database infrastructure for globally distributed applications, ensuring robust and scalable database operations.
+  
+
+### Tooling
+
+- **eslint**: A pluggable and configurable linter tool for identifying and fixing problems in JavaScript code.
+
+- **autoprefixer**: A PostCSS plugin to parse CSS and add vendor prefixes to CSS rules.
+
+- **postcss**: A tool for transforming styles with JavaScript plugins.
+
+- **typescript**: A typed superset of JavaScript that compiles to plain JavaScript.
+  
 
 ## Getting Started
 
