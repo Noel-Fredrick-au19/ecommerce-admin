@@ -97,7 +97,7 @@ export const BillboardForm: React.FC<BillboardFormProps> = ({
   return (
     <>
       <AlertModal
-        isopen={open}
+        isOpen={open}
         onClose={() => setOpen(false)}
         onConfirm={onDelete}
         loading={loading}

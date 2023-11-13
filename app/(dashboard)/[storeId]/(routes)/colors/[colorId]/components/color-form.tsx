@@ -97,7 +97,7 @@ export const ColorForm: React.FC<ColorFormProps> = ({ initialData }) => {
   return (
     <>
       <AlertModal
-        isopen={open}
+        isOpen={open}
         onClose={() => setOpen(false)}
         onConfirm={onDelete}
         loading={loading}

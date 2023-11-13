@@ -110,7 +110,7 @@ export const CategoryForm: React.FC<CategoryFormProps> = ({
   return (
     <>
       <AlertModal
-        isopen={open}
+        isOpen={open}
         onClose={() => setOpen(false)}
         onConfirm={onDelete}
         loading={loading}
